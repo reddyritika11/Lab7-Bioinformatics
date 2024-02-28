@@ -21,8 +21,8 @@ module load R
 Rscript --no-save /home/ritika11/lab7/src/hist_miss.R
 
 #### 2 - The generated plots
-![Histogram of Individual Missingness](Histogram-of-Individual-Missingness.png)
-![Histogram of SNP Missingness](Histogram-of-SNP-Missingness.png)
+![Histogram of Individual Missingness](IndividualMissingness.png)
+![Histogram of SNP Missingness](SNPMissingness.png)
 
 ####  3 - Description of Plots
 ##### A) Histogram  of SNP missingness 
@@ -36,7 +36,7 @@ Rscript --no-save /home/ritika11/lab7/src/hist_miss.R
 
 ## TASK2 - Sex discrepancies
 ![Men](Men.png)
-![Women](Women.png)
+![Women](women.png)
 ![Gender](Gender.png)
 #### Description of Plots
 -> Men Histogram - Men usually have an X and Y chromosome which could explain the high F-statistic. The plot also shows that most male samples have been identified correctly. This information can be given with the values be concentrated along 1.0
@@ -47,7 +47,7 @@ Rscript --no-save /home/ritika11/lab7/src/hist_miss.R
 -> Total Genotyping rate = 0.997378.
 
 ## TASK4 - Heterozygosity 
-![Heterozygosity Rate](Heterozygozity-Rate.png)
+![Heterozygosity Rate](Heterozygozity.png)
 -> Number of removed variants - 1,291,657
 -> Number of outliers - 7 
 
